@@ -1,0 +1,7 @@
+projects:
+
+   - title: "Dependency Forest-Based Transformer for NMT"
+     # subtitle: "Randomizing Over Randomized Experiments"
+     thumbnail: "assets/projects/DEPFOREST_NMT/forest.png"
+     # url: "projects/2016_network-ab-testing.html"
+     selected: y

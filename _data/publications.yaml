@@ -1,0 +1,68 @@
+papers:
+  - title: "Explanatory Summarization with Discourse-Driven Planning"
+    authors: "<b>Dongqi Liu,</b> Xi Yu, Vera Demberg, Mirella Lapata"
+    venue: "Transactions of the Association for Computational Linguistics (TACL), 2025"
+    paper_pdf: "https://arxiv.org/abs/2504.19339"
+    info: "projects/ExpSum"
+    # slides: "/assets/publications/NAACL2024/RST-LoRA.pdf"
+    # video: ""
+    selected: y
+    
+  - title: "What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations"
+    authors: "<b>Dongqi Liu,</b> Chenxi Whitehouse, Xi Yu, Louis Mahon, Rohit Saxena, Zheng Zhao, Yifu Qiu, Mirella Lapata, Vera Demberg"
+    venue: "Preprint, 2025"
+    paper_pdf: "https://www.arxiv.org/abs/2502.08279"
+    # info: "projects/VISTA"
+    # slides: "/assets/publications/NAACL2024/RST-LoRA.pdf"
+    # video: ""
+    selected: y
+
+  - title: "RST-LoRA: A Discourse-Aware Low-Rank Adaptation for Long Document Abstractive Summarization"
+    authors: "<b>Dongqi Liu</b> and Vera Demberg <font color='red'>oral</font>"
+    venue: "Conference of the North American Chapter of the Association for Computational Linguistics (NAACL), 2024"
+    paper_pdf: "https://aclanthology.org/2024.naacl-long.121/"
+    info: "projects/RST-LoRA"
+    slides: "/assets/publications/NAACL2024/RST-LoRA.pdf"
+    # video: ""
+    selected: y
+
+  - title: "SciNews: From Scholarly Complexities to Public Narratives -- A Dataset for Scientific News Report Generation"
+    authors: "<b>Dongqi Liu,</b> Yifan Wang, Jia Loy and Vera Demberg <font color='red'>oral</font>"
+    venue: "Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING), 2024"
+    paper_pdf: "https://aclanthology.org/2024.lrec-main.1258/"
+    info: "projects/SciNews"
+    slides: "/assets/publications/COLING2024/SciNews.pdf"
+    # video: ""
+    selected: y
+
+  - title: "Incorporating Distributions of Discourse Structure for Long Document Abstractive Summarization"
+    authors: "<b>Dongqi Liu,</b> Yifan Wang, and Vera Demberg"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2023"
+    paper_pdf: "https://aclanthology.org/2023.acl-long.306/"
+    info: "projects/RSTformer"
+#    slides: "/assets/publications/EAMT2022/slides.pdf"
+    poster: "/assets/publications/ACL2023/ACL_Poster.pdf"
+    selected: y
+    
+  - title: "ChatGPT vs Human-authored Text: Insights into Controllable Text Summarization and Sentence Style Transfer"
+    authors: "<b>Dongqi Liu</b> and Vera Demberg"
+    venue: "Annual Meeting of the Association for Computational Linguistics: Student Research Workshop (ACL-SRW), 2023"
+    paper_pdf: "https://aclanthology.org/2023.acl-srw.1/"
+    info: "projects/ChatGPT_vs_Human"
+#    slides: "/assets/publications/EAMT2022/slides.pdf"
+    poster: "/assets/publications/ACL2023/ACL_SRW_Poster.pdf"
+    selected: y
+
+  - title: "Two-Stage Movie Scripts Summarization: An Efficient Method for Low-resource Long Documents Summarization"
+    authors: "<b>Dongqi Liu<sup>‡</sup>,</b> Xudong Hong<sup>‡</sup>, Pin-Jie Lin<sup>‡</sup>, Ernie Chang and Vera Demberg"
+    venue: "The Workshop on Automatic Summarization for Creative Writing, 2022"
+    paper_pdf: "https://aclanthology.org/2022.creativesumm-1.9/"
+    selected: n
+
+  - title: "Passing Parser Uncertainty to the Transformer: Labeled Dependency Distributions for Neural Machine Translation"
+    authors: "<b>Dongqi Liu</b> and Khalil Sima'an"
+    venue: "Annual Conference of the European Association for Machine Translation (EAMT), 2022"
+    paper_pdf: "https://aclanthology.org/2022.eamt-1.7/"
+#     slides: "/assets/publications/EAMT2022/slides.pdf"
+#     poster: "/assets/publications/EAMT2022/poster.pdf"
+    selected: y
