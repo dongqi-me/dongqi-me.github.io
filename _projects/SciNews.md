@@ -44,38 +44,35 @@ Users of the SciNews dataset should be aware of its limitations and biases, part
 
 ## 📚 Citation
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div style="flex-grow: 1;">
-    <pre id="citation-text-scinews" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; word-break: keep-all; overflow-x: auto; color: #24292e;">
-@inproceedings{pu-etal-2024-scinews-scholarly,
-    title = "{S}ci{N}ews: From Scholarly Complexities to Public Narratives {--} a Dataset for Scientific News Report Generation",
-    author = "Liu, Dongqi  and
+<div style="position: relative; margin-bottom: 20px;">
+  <pre id="citation-text-scinews" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; overflow-x: auto; font-family: monospace; line-height: 1.5;">
+<span style="color: #800000;">@inproceedings</span>{<span style="color: #000080;">pu-etal-2024-scinews-scholarly</span>,
+    <span style="color: #008000;">title</span> = "<span style="color: #000080;">{S}ci{N}ews: From Scholarly Complexities to Public Narratives {--} a Dataset for Scientific News Report Generation</span>",
+    <span style="color: #008000;">author</span> = "<span style="color: #000080;">Liu, Dongqi  and
       Wang, Yifan  and
       Loy, Jia E.  and
-      Demberg, Vera",
-    editor = "Calzolari, Nicoletta  and
+      Demberg, Vera</span>",
+    <span style="color: #008000;">editor</span> = "<span style="color: #000080;">Calzolari, Nicoletta  and
       Kan, Min-Yen  and
       Hoste, Veronique  and
       Lenci, Alessandro  and
       Sakti, Sakriani  and
-      Xue, Nianwen",
-    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
-    month = may,
-    year = "2024",
-    address = "Torino, Italy",
-    publisher = "ELRA and ICCL",
-    url = "https://aclanthology.org/2024.lrec-main.1258",
-    pages = "14429--14444",
+      Xue, Nianwen</span>",
+    <span style="color: #008000;">booktitle</span> = "<span style="color: #000080;">Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)</span>",
+    <span style="color: #008000;">month</span> = <span style="color: #000080;">may</span>,
+    <span style="color: #008000;">year</span> = "<span style="color: #000080;">2024</span>",
+    <span style="color: #008000;">address</span> = "<span style="color: #000080;">Torino, Italy</span>",
+    <span style="color: #008000;">publisher</span> = "<span style="color: #000080;">ELRA and ICCL</span>",
+    <span style="color: #008000;">url</span> = "<span style="color: #000080;">https://aclanthology.org/2024.lrec-main.1258</span>",
+    <span style="color: #008000;">pages</span> = "<span style="color: #000080;">14429--14444</span>",
 }</pre>
-  </div>
-  <button onclick="copyBibTeXSciNews()" style="margin-left: 10px; height: 36px; padding: 0 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; flex-shrink: 0; align-self: flex-start; margin-top: 15px;">
+  <button onclick="copyBibTeXSciNews()" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 14px;">
     Copy
   </button>
 </div>
 
 <script>
 function copyBibTeXSciNews() {
-  // 创建一个临时textarea元素
   var textArea = document.createElement("textarea");
   textArea.value = document.getElementById("citation-text-scinews").textContent.trim();
   document.body.appendChild(textArea);

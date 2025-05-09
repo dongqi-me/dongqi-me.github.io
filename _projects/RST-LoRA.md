@@ -23,34 +23,31 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div style="flex-grow: 1;">
-    <pre id="citation-text-rstlora" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; word-break: keep-all; overflow-x: auto; color: #24292e;">
-@inproceedings{pu-demberg-2024-rst,
-    title = "{RST}-{L}o{RA}: A Discourse-Aware Low-Rank Adaptation for Long Document Abstractive Summarization",
-    author = "Liu, Dongqi  and
-      Demberg, Vera",
-    editor = "Duh, Kevin  and
+<div style="position: relative; margin-bottom: 20px;">
+  <pre id="citation-text-rstlora" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; overflow-x: auto; font-family: monospace; line-height: 1.5;">
+<span style="color: #800000;">@inproceedings</span>{<span style="color: #000080;">pu-demberg-2024-rst</span>,
+    <span style="color: #008000;">title</span> = "<span style="color: #000080;">{RST}-{L}o{RA}: A Discourse-Aware Low-Rank Adaptation for Long Document Abstractive Summarization</span>",
+    <span style="color: #008000;">author</span> = "<span style="color: #000080;">Liu, Dongqi  and
+      Demberg, Vera</span>",
+    <span style="color: #008000;">editor</span> = "<span style="color: #000080;">Duh, Kevin  and
       Gomez, Helena  and
-      Bethard, Steven",
-    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
-    month = jun,
-    year = "2024",
-    address = "Mexico City, Mexico",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.naacl-long.121",
-    doi = "10.18653/v1/2024.naacl-long.121",
-    pages = "2200--2220",
+      Bethard, Steven</span>",
+    <span style="color: #008000;">booktitle</span> = "<span style="color: #000080;">Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)</span>",
+    <span style="color: #008000;">month</span> = <span style="color: #000080;">jun</span>,
+    <span style="color: #008000;">year</span> = "<span style="color: #000080;">2024</span>",
+    <span style="color: #008000;">address</span> = "<span style="color: #000080;">Mexico City, Mexico</span>",
+    <span style="color: #008000;">publisher</span> = "<span style="color: #000080;">Association for Computational Linguistics</span>",
+    <span style="color: #008000;">url</span> = "<span style="color: #000080;">https://aclanthology.org/2024.naacl-long.121</span>",
+    <span style="color: #008000;">doi</span> = "<span style="color: #000080;">10.18653/v1/2024.naacl-long.121</span>",
+    <span style="color: #008000;">pages</span> = "<span style="color: #000080;">2200--2220</span>",
 }</pre>
-  </div>
-  <button onclick="copyBibTeXRSTLoRA()" style="margin-left: 10px; height: 36px; padding: 0 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; flex-shrink: 0; align-self: flex-start; margin-top: 15px;">
+  <button onclick="copyBibTeXRSTLoRA()" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 14px;">
     Copy
   </button>
 </div>
 
 <script>
 function copyBibTeXRSTLoRA() {
-  // 创建一个临时textarea元素
   var textArea = document.createElement("textarea");
   textArea.value = document.getElementById("citation-text-rstlora").textContent.trim();
   document.body.appendChild(textArea);

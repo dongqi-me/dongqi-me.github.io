@@ -23,24 +23,21 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div style="flex-grow: 1;">
-    <pre id="citation-text-expsum" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; word-break: keep-all; overflow-x: auto; color: #24292e;">
-@article{liu2025explanatory,
-  title={Explanatory Summarization with Discourse-Driven Planning},
-  author={Liu, Dongqi and Yu, Xi and Demberg, Vera and Lapata, Mirella},
-  journal={arXiv preprint arXiv:2504.19339},
-  year={2025}
+<div style="position: relative; margin-bottom: 20px;">
+  <pre id="citation-text-expsum" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; overflow-x: auto; font-family: monospace; line-height: 1.5;">
+<span style="color: #800000;">@article</span>{<span style="color: #000080;">liu2025explanatory</span>,
+  <span style="color: #008000;">title</span>={<span style="color: #000080;">Explanatory Summarization with Discourse-Driven Planning</span>},
+  <span style="color: #008000;">author</span>={<span style="color: #000080;">Liu, Dongqi and Yu, Xi and Demberg, Vera and Lapata, Mirella</span>},
+  <span style="color: #008000;">journal</span>={<span style="color: #000080;">arXiv preprint arXiv:2504.19339</span>},
+  <span style="color: #008000;">year</span>={<span style="color: #000080;">2025</span>}
 }</pre>
-  </div>
-  <button onclick="copyBibTeXExpSum()" style="margin-left: 10px; height: 36px; padding: 0 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; flex-shrink: 0; align-self: flex-start; margin-top: 15px;">
+  <button onclick="copyBibTeXExpSum()" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 14px;">
     Copy
   </button>
 </div>
 
 <script>
 function copyBibTeXExpSum() {
-  // 创建一个临时textarea元素
   var textArea = document.createElement("textarea");
   textArea.value = document.getElementById("citation-text-expsum").textContent.trim();
   document.body.appendChild(textArea);

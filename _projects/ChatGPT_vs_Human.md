@@ -19,34 +19,31 @@ Large-scale language models, like ChatGPT, have garnered significant media atten
 
 ### 📚 Citation
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div style="flex-grow: 1;">
-    <pre id="citation-text-chatgpt" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; word-break: keep-all; overflow-x: auto; color: #24292e;">
-@inproceedings{pu-demberg-2023-chatgpt,
-    title = "{C}hat{GPT} vs Human-authored Text: Insights into Controllable Text Summarization and Sentence Style Transfer",
-    author = "Liu, Dongqi  and
-      Demberg, Vera",
-    editor = "Padmakumar, Vishakh  and
+<div style="position: relative; margin-bottom: 20px;">
+  <pre id="citation-text-chatgpt" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; overflow-x: auto; font-family: monospace; line-height: 1.5;">
+<span style="color: #800000;">@inproceedings</span>{<span style="color: #000080;">pu-demberg-2023-chatgpt</span>,
+    <span style="color: #008000;">title</span> = "<span style="color: #000080;">{C}hat{GPT} vs Human-authored Text: Insights into Controllable Text Summarization and Sentence Style Transfer</span>",
+    <span style="color: #008000;">author</span> = "<span style="color: #000080;">Liu, Dongqi  and
+      Demberg, Vera</span>",
+    <span style="color: #008000;">editor</span> = "<span style="color: #000080;">Padmakumar, Vishakh  and
       Vallejo, Gisela  and
-      Fu, Yao",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.acl-srw.1",
-    doi = "10.18653/v1/2023.acl-srw.1",
-    pages = "1--18",
+      Fu, Yao</span>",
+    <span style="color: #008000;">booktitle</span> = "<span style="color: #000080;">Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)</span>",
+    <span style="color: #008000;">month</span> = <span style="color: #000080;">jul</span>,
+    <span style="color: #008000;">year</span> = "<span style="color: #000080;">2023</span>",
+    <span style="color: #008000;">address</span> = "<span style="color: #000080;">Toronto, Canada</span>",
+    <span style="color: #008000;">publisher</span> = "<span style="color: #000080;">Association for Computational Linguistics</span>",
+    <span style="color: #008000;">url</span> = "<span style="color: #000080;">https://aclanthology.org/2023.acl-srw.1</span>",
+    <span style="color: #008000;">doi</span> = "<span style="color: #000080;">10.18653/v1/2023.acl-srw.1</span>",
+    <span style="color: #008000;">pages</span> = "<span style="color: #000080;">1--18</span>",
 }</pre>
-  </div>
-  <button onclick="copyBibTeXChatGPT()" style="margin-left: 10px; height: 36px; padding: 0 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; flex-shrink: 0; align-self: flex-start; margin-top: 15px;">
+  <button onclick="copyBibTeXChatGPT()" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 14px;">
     Copy
   </button>
 </div>
 
 <script>
 function copyBibTeXChatGPT() {
-  // 创建一个临时textarea元素
   var textArea = document.createElement("textarea");
   textArea.value = document.getElementById("citation-text-chatgpt").textContent.trim();
   document.body.appendChild(textArea);
