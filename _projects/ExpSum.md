@@ -19,7 +19,7 @@ Lay summaries for scientific documents typically include explanations to help re
 ### Method Overview
 
 <div style="display: flex; justify-content: center;">
-    <img src="../assets/publications/TACL2025/expsum_framework.png" alt="ExpSum Framework.png" style="max-width:85%;">
+    <img src="../assets/publications/TACL2025/expsum_framework.png" alt="ExpSum Framework.png" style="max-width:100%;">
 </div>
 
 ### Code and Data
