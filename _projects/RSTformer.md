@@ -23,10 +23,11 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
-<div class="citation-container" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
+<div class="citation-container" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0; position: relative;">
 <strong>Please cite our work if you find it useful:</strong>
+<button onclick="copyToClipboard('rstformer-citation')" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer;">Copy</button>
 
-{% highlight bibtex %}
+<pre id="rstformer-citation" style="background-color: #f5f5f5; padding: 10px; overflow-x: auto; margin-top: 10px;">
 @inproceedings{pu-etal-2023-incorporating,
     title = "Incorporating Distributions of Discourse Structure for Long Document Abstractive Summarization",
     author = "Liu, Dongqi  and
@@ -44,8 +45,22 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
     doi = "10.18653/v1/2023.acl-long.306",
     pages = "5574--5590",
 }
-{% endhighlight %}
+</pre>
 </div>
+
+<script>
+function copyToClipboard(elementId) {
+  var text = document.getElementById(elementId).textContent;
+  navigator.clipboard.writeText(text).then(function() {
+    var button = event.target;
+    var originalText = button.textContent;
+    button.textContent = 'Copied!';
+    setTimeout(function() {
+      button.textContent = originalText;
+    }, 2000);
+  });
+}
+</script>
 
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://aclanthology.org/2023.acl-long.306" target="_blank"><img src="https://img.shields.io/badge/ACL-2023-blue" alt="ACL 2023"></a>
