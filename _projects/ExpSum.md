@@ -15,9 +15,9 @@ Lay summaries for scientific documents typically include explanations to help re
     <img src="../assets/publications/TACL2025/expsum_framework.png" alt="ExpSum Framework.png" style="max-width:100%; width:800px;">
 </div>
 
-### Code and Data
+### Code
 
-Our code and data are publicly available on GitHub: [ExpSum GitHub Repository](https://github.com/dongqi-me/ExpSum)
+Our code is publicly available on GitHub: [ExpSum GitHub Repository](https://github.com/dongqi-me/ExpSum)
 
 ### Citation:
 
