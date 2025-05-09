@@ -7,18 +7,20 @@ title: ChatGPT vs Human-authored Text&#58; Insights into Controllable Text Summa
 
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-####  Abstract: 
+### 📄 Abstract
+
 Large-scale language models, like ChatGPT, have garnered significant media attention and stunned the public with their remarkable capacity for generating coherent text from short natural language prompts. In this paper, we aim to conduct a systematic inspection of ChatGPT's performance in two controllable generation tasks, with respect to ChatGPT's ability to adapt its output to different target audiences (expert vs. layman) and writing style (formal vs. informal). Additionally, we evaluate the faithfulness of the generated text, and compare the model's performance with human-authored texts. Our findings indicate that the stylistic variations produced by humans are considerably larger than those demonstrated by ChatGPT, and the generated texts diverge from human samples in several characteristics, such as the distribution of word types. Moreover, we observe that ChatGPT sometimes incorporates factual errors or hallucinations when adapting the text to suit a specific style.
 
+### 🔍 Overview
+
 <div style="display: flex; justify-content: center;">
-    <img src="../assets/publications/ACL2023/ChatGPT_vs_Human.png" alt="ChatGPT_vs_Human" style="max-width:75%;">
+    <img src="../assets/publications/ACL2023/ChatGPT_vs_Human.png" alt="ChatGPT_vs_Human" style="max-width:100%; width:800px;">
 </div>
 
+### 📚 Citation
 
-
-#### Citation:
-
-**BibTeX:**
+<div class="citation-box" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
+<strong>Please cite our work if you find it useful:</strong>
 
 ```bibtex
 @inproceedings{pu-demberg-2023-chatgpt,
@@ -36,4 +38,11 @@ Large-scale language models, like ChatGPT, have garnered significant media atten
     url = "https://aclanthology.org/2023.acl-srw.1",
     doi = "10.18653/v1/2023.acl-srw.1",
     pages = "1--18",
+}
 ```
+</div>
+
+<div style="text-align: center; margin-top: 30px;">
+    <a href="https://aclanthology.org/2023.acl-srw.1" target="_blank"><img src="https://img.shields.io/badge/ACL-2023-blue" alt="ACL 2023"></a>
+    <a href="https://doi.org/10.18653/v1/2023.acl-srw.1" target="_blank"><img src="https://img.shields.io/badge/DOI-10.18653%2Fv1%2F2023.acl--srw.1-orange" alt="DOI"></a>
+</div>
