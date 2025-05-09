@@ -44,11 +44,9 @@ Users of the SciNews dataset should be aware of its limitations and biases, part
 
 ## 📚 Citation
 
-<div class="citation-container" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0; position: relative;">
-<strong>Please cite our work if you find it useful:</strong>
-<button onclick="copyToClipboard('scinews-citation')" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer;">Copy</button>
-
-<pre id="scinews-citation" style="background-color: #f5f5f5; padding: 10px; overflow-x: auto; margin-top: 10px;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex-grow: 1;">
+    <pre id="citation-text-scinews" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; word-break: keep-all; overflow-x: auto; color: #24292e;">
 @inproceedings{pu-etal-2024-scinews-scholarly,
     title = "{S}ci{N}ews: From Scholarly Complexities to Public Narratives {--} a Dataset for Scientific News Report Generation",
     author = "Liu, Dongqi  and
@@ -68,21 +66,35 @@ Users of the SciNews dataset should be aware of its limitations and biases, part
     publisher = "ELRA and ICCL",
     url = "https://aclanthology.org/2024.lrec-main.1258",
     pages = "14429--14444",
-}
-</pre>
+}</pre>
+  </div>
+  <button onclick="copyBibTeXSciNews()" style="margin-left: 10px; height: 36px; padding: 0 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; flex-shrink: 0; align-self: flex-start; margin-top: 15px;">
+    Copy
+  </button>
 </div>
 
 <script>
-function copyToClipboard(elementId) {
-  var text = document.getElementById(elementId).textContent;
-  navigator.clipboard.writeText(text).then(function() {
-    var button = event.target;
-    var originalText = button.textContent;
-    button.textContent = 'Copied!';
-    setTimeout(function() {
-      button.textContent = originalText;
-    }, 2000);
-  });
+function copyBibTeXSciNews() {
+  // 创建一个临时textarea元素
+  var textArea = document.createElement("textarea");
+  textArea.value = document.getElementById("citation-text-scinews").textContent.trim();
+  document.body.appendChild(textArea);
+  textArea.select();
+  
+  try {
+    var successful = document.execCommand('copy');
+    var button = document.querySelector('button');
+    if (successful) {
+      button.textContent = 'Copied!';
+      setTimeout(function() {
+        button.textContent = 'Copy';
+      }, 2000);
+    }
+  } catch (err) {
+    console.error('Unable to copy', err);
+  }
+  
+  document.body.removeChild(textArea);
 }
 </script>
 

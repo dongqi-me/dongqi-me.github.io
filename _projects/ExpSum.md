@@ -23,31 +23,43 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
-<div class="citation-container" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0; position: relative;">
-<strong>Please cite our work if you find it useful:</strong>
-<button onclick="copyToClipboard('expsum-citation')" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer;">Copy</button>
-
-<pre id="expsum-citation" style="background-color: #f5f5f5; padding: 10px; overflow-x: auto; margin-top: 10px;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <div style="flex-grow: 1;">
+    <pre id="citation-text-expsum" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; word-break: keep-all; overflow-x: auto; color: #24292e;">
 @article{liu2025explanatory,
   title={Explanatory Summarization with Discourse-Driven Planning},
   author={Liu, Dongqi and Yu, Xi and Demberg, Vera and Lapata, Mirella},
   journal={arXiv preprint arXiv:2504.19339},
   year={2025}
-}
-</pre>
+}</pre>
+  </div>
+  <button onclick="copyBibTeXExpSum()" style="margin-left: 10px; height: 36px; padding: 0 10px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; flex-shrink: 0; align-self: flex-start; margin-top: 15px;">
+    Copy
+  </button>
 </div>
 
 <script>
-function copyToClipboard(elementId) {
-  var text = document.getElementById(elementId).textContent;
-  navigator.clipboard.writeText(text).then(function() {
-    var button = event.target;
-    var originalText = button.textContent;
-    button.textContent = 'Copied!';
-    setTimeout(function() {
-      button.textContent = originalText;
-    }, 2000);
-  });
+function copyBibTeXExpSum() {
+  // 创建一个临时textarea元素
+  var textArea = document.createElement("textarea");
+  textArea.value = document.getElementById("citation-text-expsum").textContent.trim();
+  document.body.appendChild(textArea);
+  textArea.select();
+  
+  try {
+    var successful = document.execCommand('copy');
+    var button = document.querySelector('button');
+    if (successful) {
+      button.textContent = 'Copied!';
+      setTimeout(function() {
+        button.textContent = 'Copy';
+      }, 2000);
+    }
+  } catch (err) {
+    console.error('Unable to copy', err);
+  }
+  
+  document.body.removeChild(textArea);
 }
 </script>
 
