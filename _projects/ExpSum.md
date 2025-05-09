@@ -23,18 +23,14 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
-<div class="citation-box" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
-<strong>Please cite our work if you find it useful:</strong>
-
-```bibtex
+{% highlight bibtex %}
 @article{liu2025explanatory,
   title={Explanatory Summarization with Discourse-Driven Planning},
   author={Liu, Dongqi and Yu, Xi and Demberg, Vera and Lapata, Mirella},
   journal={arXiv preprint arXiv:2504.19339},
   year={2025}
 }
-```
-</div>
+{% endhighlight %}
 
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://tacl2023.org" target="_blank"><img src="https://img.shields.io/badge/TACL-2025-blue" alt="TACL 2025"></a>

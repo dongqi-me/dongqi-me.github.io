@@ -23,10 +23,7 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
-<div class="citation-box" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
-<strong>Please cite our work if you find it useful:</strong>
-
-```bibtex
+{% highlight bibtex %}
 @inproceedings{pu-etal-2023-incorporating,
     title = "Incorporating Distributions of Discourse Structure for Long Document Abstractive Summarization",
     author = "Liu, Dongqi  and
@@ -44,8 +41,7 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
     doi = "10.18653/v1/2023.acl-long.306",
     pages = "5574--5590",
 }
-```
-</div>
+{% endhighlight %}
 
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://aclanthology.org/2023.acl-long.306" target="_blank"><img src="https://img.shields.io/badge/ACL-2023-blue" alt="ACL 2023"></a>

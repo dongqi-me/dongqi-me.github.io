@@ -19,10 +19,7 @@ Large-scale language models, like ChatGPT, have garnered significant media atten
 
 ### 📚 Citation
 
-<div class="citation-box" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
-<strong>Please cite our work if you find it useful:</strong>
-
-```bibtex
+{% highlight bibtex %}
 @inproceedings{pu-demberg-2023-chatgpt,
     title = "{C}hat{GPT} vs Human-authored Text: Insights into Controllable Text Summarization and Sentence Style Transfer",
     author = "Liu, Dongqi  and
@@ -39,8 +36,7 @@ Large-scale language models, like ChatGPT, have garnered significant media atten
     doi = "10.18653/v1/2023.acl-srw.1",
     pages = "1--18",
 }
-```
-</div>
+{% endhighlight %}
 
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://aclanthology.org/2023.acl-srw.1" target="_blank"><img src="https://img.shields.io/badge/ACL-2023-blue" alt="ACL 2023"></a>
