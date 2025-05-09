@@ -31,7 +31,11 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
   <span style="color: #008000;">journal</span>={<span style="color: #000080;">arXiv preprint arXiv:2504.19339</span>},
   <span style="color: #008000;">year</span>={<span style="color: #000080;">2025</span>}
 }</pre>
-  <button onclick="copyBibTeXExpSum()" style="position: absolute; top: 10px; right: 10px; background: #007bff; color: white; border: none; border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 14px;">
+  <button onclick="copyBibTeXExpSum()" style="position: absolute; top: 10px; right: 10px; background: #f8f9fa; color: #007bff; border: 1px solid #007bff; border-radius: 4px; padding: 5px 10px; cursor: pointer; font-size: 13px; display: flex; align-items: center; transition: all 0.2s ease;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px;">
+      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+    </svg>
     Copy
   </button>
 </div>
@@ -47,9 +51,11 @@ function copyBibTeXExpSum() {
     var successful = document.execCommand('copy');
     var button = document.querySelector('button');
     if (successful) {
-      button.textContent = 'Copied!';
+      button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px;"><polyline points="20 6 9 17 4 12"></polyline></svg>Copied!';
+      button.style.background = '#e8f4ff';
       setTimeout(function() {
-        button.textContent = 'Copy';
+        button.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 5px;"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>Copy';
+        button.style.background = '#f8f9fa';
       }, 2000);
     }
   } catch (err) {
