@@ -23,6 +23,9 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
+<div class="citation-container" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
+<strong>Please cite our work if you find it useful:</strong>
+
 {% highlight bibtex %}
 @inproceedings{pu-demberg-2024-rst,
     title = "{RST}-{L}o{RA}: A Discourse-Aware Low-Rank Adaptation for Long Document Abstractive Summarization",
@@ -41,6 +44,7 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
     pages = "2200--2220",
 }
 {% endhighlight %}
+</div>
 
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://aclanthology.org/2024.naacl-long.121" target="_blank"><img src="https://img.shields.io/badge/NAACL-2024-blue" alt="NAACL 2024"></a>

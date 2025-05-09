@@ -44,6 +44,9 @@ Users of the SciNews dataset should be aware of its limitations and biases, part
 
 ## 📚 Citation
 
+<div class="citation-container" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
+<strong>Please cite our work if you find it useful:</strong>
+
 {% highlight bibtex %}
 @inproceedings{pu-etal-2024-scinews-scholarly,
     title = "{S}ci{N}ews: From Scholarly Complexities to Public Narratives {--} a Dataset for Scientific News Report Generation",
@@ -66,6 +69,7 @@ Users of the SciNews dataset should be aware of its limitations and biases, part
     pages = "14429--14444",
 }
 {% endhighlight %}
+</div>
 
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://aclanthology.org/2024.lrec-main.1258" target="_blank"><img src="https://img.shields.io/badge/LREC--COLING-2024-blue" alt="LREC-COLING 2024"></a>

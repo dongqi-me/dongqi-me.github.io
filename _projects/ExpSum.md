@@ -23,6 +23,9 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
 
 ### 📚 Citation
 
+<div class="citation-container" style="background-color: #f8f9fa; border-left: 4px solid #007bff; padding: 15px; border-radius: 4px; margin: 20px 0;">
+<strong>Please cite our work if you find it useful:</strong>
+
 {% highlight bibtex %}
 @article{liu2025explanatory,
   title={Explanatory Summarization with Discourse-Driven Planning},
@@ -31,6 +34,7 @@ Our code is publicly available on GitHub: [<img src="https://img.shields.io/badg
   year={2025}
 }
 {% endhighlight %}
+</div>
 
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://tacl2023.org" target="_blank"><img src="https://img.shields.io/badge/TACL-2025-blue" alt="TACL 2025"></a>
