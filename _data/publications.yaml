@@ -10,7 +10,7 @@ papers:
     
   - title: "What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations"
     authors: "<b>Dongqi Liu,</b> Chenxi Whitehouse, Xi Yu, Louis Mahon, Rohit Saxena, Zheng Zhao, Yifu Qiu, Mirella Lapata, Vera Demberg"
-    venue: "Preprint, 2025"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2025"
     paper_pdf: "https://www.arxiv.org/abs/2502.08279"
     # info: "projects/VISTA"
     # slides: "/assets/publications/NAACL2024/RST-LoRA.pdf"
