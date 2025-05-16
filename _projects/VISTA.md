@@ -21,6 +21,10 @@ Transforming recorded videos into concise and accurate textual summaries is a gr
 
 Our code is publicly available on GitHub: [<img src="https://img.shields.io/badge/GitHub-VISTA-blue?logo=github" alt="VISTA GitHub Repository">](https://github.com/dongqi-me/VISTA)
 
+### 📊 Dataset
+
+The VISTA dataset is available on Huggingface: [<img src="https://img.shields.io/badge/🤗%20Huggingface-VISTA-yellow" alt="VISTA Dataset">](https://huggingface.co/datasets/dongqi-me/VISTA)
+
 ### 📚 Citation
 
 <div style="position: relative; margin-bottom: 20px;">
@@ -67,7 +71,8 @@ function copyBibTeXVista() {
 </script>
 
 <div style="text-align: center; margin-top: 30px;">
-    <a href="https://2025.aclweb.org/" target="_blank"><img src="https://img.shields.io/badge/TACL-2025-blue" alt="ACL 2025"></a>
+    <a href="https://2025.aclweb.org/" target="_blank"><img src="https://img.shields.io/badge/ACL-2025-blue" alt="ACL 2025"></a>
     <a href="https://arxiv.org/abs/2502.08279" target="_blank"><img src="https://img.shields.io/badge/arXiv-2502.08279-b31b1b" alt="arXiv"></a>
     <a href="https://github.com/dongqi-me/VISTA" target="_blank"><img src="https://img.shields.io/badge/Code-Available-green" alt="Code"></a>
+    <a href="https://huggingface.co/datasets/dongqi-me/VISTA" target="_blank"><img src="https://img.shields.io/badge/🤗%20Dataset-VISTA-yellow" alt="Dataset"></a>
 </div> 
