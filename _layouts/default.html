@@ -67,6 +67,12 @@
     .fa-openreview:before {
       content: "\f19c"; /* Using "bank" icon as a substitute */
     }
+    .header-acl {
+      filter: brightness(0);
+    }
+    .footer-acl {
+      filter: grayscale(100%);
+    }
   </style>
 
   <!-- Favicon
@@ -115,10 +121,6 @@
                <i class="fa fa-github" aria-hidden="true"></i>
              </span>
 
-              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                <i class="ai ai--github" aria-hidden="true"></i>
-              </span>
-
               <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
               </span>
@@ -126,9 +128,15 @@
               <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer">
                 <i class="ai ai-semantic-scholar ai-lg" aria-hidden="true"></i>
               </span>
+
               <span onclick="window.open('{{ site.data.main_info.dblp }}')" style="cursor: pointer">
                 <i class="ai ai-dblp ai-lg" aria-hidden="true"></i>
               </span>
+
+              <span onclick="window.open('{{ site.data.main_info.acl_anthology }}')" style="cursor: pointer">
+                <img src="{{ '/assets/images/acl_logo.svg' | prepend: site.baseurl }}" alt="ACL Anthology" class="header-acl" style="height: 0.9em; vertical-align: middle;">
+              </span>
+
               <span onclick="window.open('{{ site.data.main_info.openreview }}')" style="cursor: pointer">
                 <i class="fa fa-openreview fa-lg" aria-hidden="true"></i>
               </span>
@@ -186,10 +194,13 @@
             <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
           </span>
           <span onclick="window.open('{{ site.data.main_info.semantic_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-semantic-scholar-square ai-lg" aria-hidden="true"></i>
+            <i class="ai ai-semantic-scholar ai-lg" aria-hidden="true"></i>
           </span>
           <span onclick="window.open('{{ site.data.main_info.dblp }}')" style="cursor: pointer">
             <i class="ai ai-dblp ai-lg" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('{{ site.data.main_info.acl_anthology }}')" style="cursor: pointer">
+            <img src="{{ '/assets/images/acl_logo.svg' | prepend: site.baseurl }}" alt="ACL Anthology" class="footer-acl" style="height: 0.9em; vertical-align: middle;">
           </span>
           <span onclick="window.open('{{ site.data.main_info.openreview }}')" style="cursor: pointer">
             <i class="fa fa-openreview fa-lg" aria-hidden="true"></i>
