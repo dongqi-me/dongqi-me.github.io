@@ -69,5 +69,5 @@ function copyBibTeXExpSum() {
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://transacl.org/" target="_blank"><img src="https://img.shields.io/badge/TACL-2025-blue" alt="TACL 2025"></a>
     <a href="https://arxiv.org/abs/2504.19339" target="_blank"><img src="https://img.shields.io/badge/arXiv-2504.19339-b31b1b" alt="arXiv"></a>
-    <a href="https://github.com/dongqi-me/ExpSum" target="_blank"><img src="https://img.shields.io/badge/Code-Available%20Soon-yellow" alt="Code"></a>
+    <a href="https://github.com/dongqi-me/ExpSum" target="_blank"><img src="https://img.shields.io/badge/Code-Available-green" alt="Code"></a>
 </div>
