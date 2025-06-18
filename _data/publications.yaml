@@ -67,4 +67,4 @@ papers:
     paper_pdf: "https://aclanthology.org/2022.eamt-1.7/"
 #     slides: "/assets/publications/EAMT2022/slides.pdf"
 #     poster: "/assets/publications/EAMT2022/poster.pdf"
-    selected: y
+    selected: n
