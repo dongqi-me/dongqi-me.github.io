@@ -32,7 +32,7 @@ The VISTA dataset is available on Huggingface: [<img src="https://img.shields.io
 <span style="color: #800000;">@article</span>{<span style="color: #000080;">liu2025vista</span>,
   <span style="color: #008000;">title</span>={<span style="color: #000080;">What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations</span>},
   <span style="color: #008000;">author</span>={<span style="color: #000080;">Liu, Dongqi and Whitehouse, Chenxi and Yu, Xi and Mahon, Louis and Saxena, Rohit and Zhao, Zheng and Qiu, Yifu and Lapata, Mirella and Demberg, Vera</span>},
-  <span style="color: #008000;">journal</span>={<span style="color: #000080;">arXiv preprint arXiv:2502.08279</span>},
+  <span style="color: #008000;">booktitle</span>={<span style="color: #000080;">Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</span>},
   <span style="color: #008000;">year</span>={<span style="color: #000080;">2025</span>}
 }</pre>
   <button onclick="copyBibTeXVista()" style="position: absolute; top: 10px; right: 10px; background: #f6f8fa; color: #24292e; border: none; border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 12px; display: flex; align-items: center; opacity: 0.6; transition: opacity 0.2s;">
