@@ -71,7 +71,7 @@ function copyBibTeXVista() {
 </script>
 
 <div style="text-align: center; margin-top: 30px;">
-    <a href="https://2025.aclweb.org/" target="_blank"><img src="https://img.shields.io/badge/ACL-2025-blue" alt="ACL 2025"></a>
+    <a href="https://aclanthology.org/2025.acl-long.310/" target="_blank"><img src="https://img.shields.io/badge/ACL-2025-blue" alt="ACL 2025"></a>
     <a href="https://arxiv.org/abs/2502.08279" target="_blank"><img src="https://img.shields.io/badge/arXiv-2502.08279-b31b1b" alt="arXiv"></a>
     <a href="https://github.com/dongqi-me/VISTA" target="_blank"><img src="https://img.shields.io/badge/Code-Available-green" alt="Code"></a>
     <a href="https://huggingface.co/datasets/dongqi-me/VISTA" target="_blank"><img src="https://img.shields.io/badge/🤗%20Dataset-VISTA-yellow" alt="Dataset"></a>
