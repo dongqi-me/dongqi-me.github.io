@@ -1,4 +1,13 @@
 papers:
+  - title: "Disco-RAG: Discourse-Aware Retrieval-Augmented Generation"
+    authors: "<b>Dongqi Liu,</b> Hang Ding, Qiming Feng, Jian Li, Xurong Xie, Zhucun Xue, Chengjie Wang, Jiangning Zhang, Yabiao Wang"
+    venue: " arXiv preprint, 2026"
+    paper_pdf: "https://arxiv.org/pdf/2601.04377"
+    # info: "projects/ExpSum"
+    # slides: "/assets/publications/TACL2025/ExpSum_Slides.pdf"
+    # poster: "/assets/publications/TACL2025/ExpSum_Poster.pdf"
+    # video: ""
+    selected: y
   - title: "Explanatory Summarization with Discourse-Driven Planning"
     authors: "<b>Dongqi Liu,</b> Xi Yu, Vera Demberg, Mirella Lapata"
     venue: "Transactions of the Association for Computational Linguistics (TACL), 2025"
