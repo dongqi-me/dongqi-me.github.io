@@ -11,7 +11,7 @@ papers:
   - title: "Explanatory Summarization with Discourse-Driven Planning"
     authors: "<b>Dongqi Liu,</b> Xi Yu, Vera Demberg, Mirella Lapata"
     venue: "Transactions of the Association for Computational Linguistics (TACL), 2025"
-    paper_pdf: "https://direct.mit.edu/tacl/article/doi/10.1162/TACL.a.30/133040"
+    paper_pdf: "https://aclanthology.org/2025.tacl-1.53/"
     info: "projects/ExpSum"
     slides: "/assets/publications/TACL2025/ExpSum_Slides.pdf"
     poster: "/assets/publications/TACL2025/ExpSum_Poster.pdf"
