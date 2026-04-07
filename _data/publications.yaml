@@ -1,7 +1,7 @@
 papers:
   - title: "Disco-RAG: Discourse-Aware Retrieval-Augmented Generation"
     authors: "<b>Dongqi Liu,</b> Hang Ding, Qiming Feng, Jian Li, Xurong Xie, Zhucun Xue, Chengjie Wang, Jiangning Zhang, Yabiao Wang"
-    venue: " arXiv preprint, 2026"
+    venue: " Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
     paper_pdf: "https://arxiv.org/pdf/2601.04377"
     # info: "projects/ExpSum"
     # slides: "/assets/publications/TACL2025/ExpSum_Slides.pdf"
