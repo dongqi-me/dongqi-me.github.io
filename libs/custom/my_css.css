@@ -37,11 +37,35 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.paper .title {
-  /* text-transform: uppercase; */
+.paper p { margin-bottom: 2px; line-height: 1.6; }
+
+/* 标题行（学校/经历名 + 日期）：用 flex 替代 inline float:right
+   防止移动端日期下移并与下一个 <p> 重叠 */
+.paper p.title b {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
 }
 
-.paper p { margin-bottom: 2px; line-height: 1.6; }
+.paper p.title b > span[style*="float"] {
+  float: none !important;
+  margin-left: auto;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* 手机视口：标题统一换行（学校名一行，日期另起一行左对齐） */
+@media (max-width: 750px) {
+  .paper p.title b {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .paper p.title b > span[style*="float"] {
+    margin-left: 0;
+  }
+}
 
 .paper-buttons { 
   margin-top: 5px;
@@ -81,6 +105,17 @@ a:hover {
   border-top: 1px solid #eee;
   padding: 3rem 0;
   margin-bottom: 0;
+}
+
+/* 覆盖 Skeleton 的 list-style: circle inside / padding-left: 0
+   让 docs-section 内的列表换行 hang-indent，不再和符号对齐 */
+.docs-section ul {
+  list-style: disc outside;
+  padding-left: 1.5em;
+}
+
+.docs-section ul li {
+  padding-left: 0.25em;
 }
 
 /* ===== 页脚 ===== */
@@ -144,7 +179,7 @@ a:hover {
   .navbar-spacer {
     display: block;
     width: 100%;
-    height: 6.5rem;
+    min-height: 6.5rem;
     background: #fff;
     z-index: 99;
     border-top: 1px solid #eee;
@@ -160,24 +195,38 @@ a:hover {
   }
 
   .navbar-list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* 间距随视口宽度平滑缩放：12px(窄) → 35px(宽) */
+    gap: clamp(12px, 2.5vw, 35px);
     list-style: none;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    min-height: 6.5rem;
+    width: 100%;
   }
 
   .navbar-item {
     position: relative;
-    float: left;
-    margin-bottom: 0;
+    margin: 0;
+    flex-shrink: 1;
+    min-width: 0;
   }
 
   .navbar-link {
+    display: inline-block;
     text-transform: uppercase;
-    font-size: 15px;
+    /* 流式自适应：在 11px ~ 15px 之间根据视口宽度平滑缩放 */
+    font-size: clamp(11px, 1.4vw, 15px);
     font-weight: 600;
-    letter-spacing: .2rem;
-    margin-right: 35px;
+    /* letter-spacing 也随视口缩放 */
+    letter-spacing: clamp(0px, 0.18vw, 2px);
+    margin: 0;
+    padding: 1rem 0;
     text-decoration: none;
-    line-height: 6.5rem;
+    line-height: 1.5;
+    white-space: nowrap;
     color: #222;
   }
 
