@@ -8,6 +8,15 @@ papers:
     # poster: "/assets/publications/TACL2025/ExpSum_Poster.pdf"
     # video: ""
     selected: y
+  - title: "TGPO: Efficient Policy Optimization through Sequence Anchor and Information Gating"
+    authors: "Hang Ding, <b>Dongqi Liu</b>, Qiming Feng, Jian Li, Tong Lei, Jiafu Wu, Shuo Wang, Jiangning Zhang, Chengjie Wang, Yabiao Wang"
+    venue: " International Conference on Machine Learning (ICML), 2026"
+    # paper_pdf: "https://arxiv.org/pdf/2601.04377"
+    # info: "projects/ExpSum"
+    # slides: "/assets/publications/TACL2025/ExpSum_Slides.pdf"
+    # poster: "/assets/publications/TACL2025/ExpSum_Poster.pdf"
+    # video: ""
+    selected: y
   - title: "Explanatory Summarization with Discourse-Driven Planning"
     authors: "<b>Dongqi Liu,</b> Xi Yu, Vera Demberg, Mirella Lapata"
     venue: "Transactions of the Association for Computational Linguistics (TACL), 2025"
@@ -16,8 +25,7 @@ papers:
     slides: "/assets/publications/TACL2025/ExpSum_Slides.pdf"
     poster: "/assets/publications/TACL2025/ExpSum_Poster.pdf"
     # video: ""
-    selected: y
-    
+    selected: y    
   - title: "What Is That Talk About? A Video-to-Text Summarization Dataset for Scientific Presentations"
     authors: "<b>Dongqi Liu,</b> Chenxi Whitehouse, Xi Yu, Louis Mahon, Rohit Saxena, Zheng Zhao, Yifu Qiu, Mirella Lapata, Vera Demberg"
     venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2025"
