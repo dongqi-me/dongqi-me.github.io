@@ -9,6 +9,7 @@ papers:
     authors: "<b>Dongqi Liu,</b> Hang Ding, Qiming Feng, Jian Li, Xurong Xie, Zhucun Xue, Chengjie Wang, Jiangning Zhang, Yabiao Wang"
     venue: " Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
     paper_pdf: "https://arxiv.org/pdf/2601.04377"
+    info: "projects/Disco-RAG"
     selected: y
     
   - title: "TGPO: Efficient Policy Optimization through Sequence Anchor and Information Gating"

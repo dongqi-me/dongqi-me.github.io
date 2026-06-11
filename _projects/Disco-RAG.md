@@ -13,12 +13,12 @@ Retrieval-Augmented Generation (RAG) has emerged as an important means of enhanc
 ### 🔍 Overview
 
 <div style="display: flex; justify-content: center;">
-    <img src="../assets/publications/ACL2026/DiscoRAG.jpg" alt="DiscoRAG" style="max-width:100%; width:800px;">
+    <img src="../assets/publications/ACL2026/DiscoRAG.jpg" alt="Disco-RAG" style="max-width:100%; width:800px;">
 </div>
 
 ### 💻 Code
 
-Our code is publicly available on GitHub: [<img src="https://img.shields.io/badge/GitHub-DiscoRAG-blue?logo=github" alt="DiscoRAG GitHub Repository">](https://github.com/dongqi-me/DiscoRAG)
+Our code is publicly available on GitHub: [<img src="https://img.shields.io/badge/GitHub-DiscoRAG-blue?logo=github" alt="Disco-RAG GitHub Repository">](https://github.com/dongqi-me/Disco-RAG)
 
 ### 📚 Citation
 
@@ -68,5 +68,5 @@ function copyBibTeXDiscoRAG() {
 <div style="text-align: center; margin-top: 30px;">
     <a href="https://aclanthology.org/2026.acl-long" target="_blank"><img src="https://img.shields.io/badge/ACL-2026-blue" alt="ACL 2026"></a>
     <a href="https://arxiv.org/abs/2601.04377" target="_blank"><img src="https://img.shields.io/badge/arXiv-2601.04377-b31b1b" alt="arXiv"></a>
-    <a href="https://github.com/dongqi-me/DiscoRAG" target="_blank"><img src="https://img.shields.io/badge/Code-Available-green?logo=github" alt="Code"></a>
+    <a href="https://github.com/dongqi-me/Disco-RAG" target="_blank"><img src="https://img.shields.io/badge/Code-Available-green?logo=github" alt="Code"></a>
 </div>
