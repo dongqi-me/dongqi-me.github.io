@@ -20,8 +20,6 @@ Retrieval-Augmented Generation (RAG) has emerged as an important means of enhanc
 
 Our code is publicly available on GitHub: [<img src="https://img.shields.io/badge/GitHub-DiscoRAG-blue?logo=github" alt="Disco-RAG GitHub Repository">](https://github.com/dongqi-me/Disco-RAG)
 
-可以，删掉 `abstract` 字段后的版本如下：
-
 ### 📚 Citation
 
 <div style="position: relative; margin-bottom: 20px;">
