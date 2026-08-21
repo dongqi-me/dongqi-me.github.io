@@ -1,20 +1,26 @@
 papers:
   - title: "Summarization is Not Dead Yet"
     authors: "<b>Dongqi Liu,</b> Chenxi Whitehouse, Zheng Zhao, Zhuchen Cao, Jian Li, Yabiao Wang"
-    venue: " Preprint, 2026"
+    venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026"
     paper_pdf: "https://arxiv.org/abs/2606.08000"
+    selected: y
+
+  - title: "RoleArena: A Multi-Agent Role-Playing Environment for Long Multi-Turn Dialogues with Autonomous Plot Progression"
+    authors: "Qi Zhao, Jian Li, Yizhang Jin, <b>Dongqi Liu</b>, Hang Ding, Qi Song, Xiang Yang Li"
+    venue: "Findings of the Association for Computational Linguistics (EMNLP Findings), 2026"
+    paper_pdf: "https://dongqi.me/"
     selected: y
 
   - title: "Disco-RAG: Discourse-Aware Retrieval-Augmented Generation"
     authors: "<b>Dongqi Liu,</b> Hang Ding, Qiming Feng, Jian Li, Xurong Xie, Zhucun Xue, Chengjie Wang, Jiangning Zhang, Yabiao Wang"
-    venue: " Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
+    venue: "Annual Meeting of the Association for Computational Linguistics (ACL), 2026"
     paper_pdf: "https://aclanthology.org/2026.acl-long.189/"
     info: "projects/Disco-RAG"
     selected: y
     
   - title: "TGPO: Efficient Policy Optimization through Sequence Anchor and Information Gating"
     authors: "Hang Ding, <b>Dongqi Liu</b>, Qiming Feng, Jian Li, Tong Lei, Jiafu Wu, Shuo Wang, Jiangning Zhang, Chengjie Wang, Yabiao Wang"
-    venue: " International Conference on Machine Learning (ICML), 2026"
+    venue: "International Conference on Machine Learning (ICML), 2026"
     paper_pdf: "https://openreview.net/forum?id=bJ9JtQWpoE"
     selected: y
 
