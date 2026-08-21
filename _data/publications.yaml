@@ -8,7 +8,7 @@ papers:
   - title: "RoleArena: A Multi-Agent Role-Playing Environment for Long Multi-Turn Dialogues with Autonomous Plot Progression"
     authors: "Qi Zhao, Jian Li, Yizhang Jin, <b>Dongqi Liu</b>, Hang Ding, Qi Song, Xiang Yang Li"
     venue: "Findings of the Association for Computational Linguistics (EMNLP Findings), 2026"
-    paper_pdf: "https://dongqi.me/"
+    # paper_pdf: "https://dongqi.me/"
     selected: y
 
   - title: "Disco-RAG: Discourse-Aware Retrieval-Augmented Generation"
