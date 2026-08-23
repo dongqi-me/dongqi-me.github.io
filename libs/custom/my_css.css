@@ -200,9 +200,9 @@ a:hover {
 }
 
 .visitor-map-widget {
-  display: flex;
-  justify-content: center;
-  max-width: 100%;
+  width: min(100%, 960px);
+  height: clamp(220px, 37.5vw, 360px);
+  margin: 0 auto;
 }
 
 .visitor-map-widget canvas,

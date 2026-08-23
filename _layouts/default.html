@@ -13,6 +13,7 @@
   <meta property="og:url" content="https://www.dongqi.me" />
   <meta property="og:site_name" content="Dongqi Liu" />
   <link rel="canonical" href="https://www.dongqi.me" />
+  <script src="https://statable.com/js/3270462/s.js" defer></script>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -155,17 +156,14 @@
       <h2 class="visitor-map-title">Visitors around the world</h2>
       <div class="visitor-map-widget">
         <script
-          defer
-          src="https://statable.com/js/mw.js"
-          data-hash="{{ site.statable_public_hash }}"
+          src="https://statable.com/js/{{ site.statable_public_hash }}/t/mw.js"
+          data-id="{{ site.statable_site_id }}"
           data-theme="light"
           data-period="90d"
-          data-display-mode="heatmap"
           data-primary-color="#49108B"
+          data-ocean-color="#FFFFFF"
           data-outer-radius="0"
-          data-show-stats="true"
-          data-width="960"
-          data-height="360">
+          data-show-stats="true">
         </script>
         <noscript>The visitor map requires JavaScript.</noscript>
       </div>

@@ -6,13 +6,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Dongqi Liu</title>
-  <meta name="description" content="Homepage">
+  <meta name="description" content="Personal academic homepage of Dongqi Liu, a researcher in computational linguistics and natural language processing.">
   <meta name="author" content="Dongqi Liu">
   <meta property="og:title" content="Dongqi Liu" />
-  <meta property="og:type" content="Homepage" />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.dongqi.me" />
   <meta property="og:site_name" content="Dongqi Liu" />
   <link rel="canonical" href="https://www.dongqi.me" />
+  <script src="https://statable.com/js/3270462/s.js" defer></script>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,7 +27,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href=/libs/external/skeleton/normalize.css>
   <link rel="stylesheet" href=/libs/external/skeleton/skeleton.css>
-  <link rel="stylesheet" href="/libs/custom/my_css.css?v=1781133348">
+  <link rel="stylesheet" href="/libs/custom/my_css.css?v=1787468759">
 
   <!-- JQuery
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -56,17 +57,6 @@
 
   <!-- Custom Icons -->
   <style>
-    .fa-openreview {
-      display: inline-block;
-      font: normal normal normal 14px/1 FontAwesome;
-      font-size: inherit;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-    }
-    .fa-openreview:before {
-      content: "\f19c"; /* Using "bank" icon as a substitute */
-    }
     .header-acl {
       filter: brightness(0);
     }
@@ -90,18 +80,18 @@
     <section class="header">
       <div class="row">
         <div class="three columns">
-          <a href="/"><img class="u-max-full-width" src='/assets/profile-pics/avatar.jpg'></a>
+          <a href="/"><img class="u-max-full-width" src='/assets/profile-pics/avatar.jpg' alt="Portrait of Dongqi Liu"></a>
         </div>
         <div class="nine columns main-description">
             <h1>Dongqi Liu </h1>
             <p class="oracle-name">
-              <span class="oracle-label">My name in Oracle Bone Script:</span>
+              <span class="oracle-label">My name in oracle bone script:</span>
               <span class="oracle-text">
                 <img src='/assets/profile-pics/DQ1.png' alt="Oracle Bone Script" style="height: 1.4em; vertical-align: middle; display: inline-block;">
               </span>
             </p>
-            <p>Doctoral researcher in Computational Linguistics</p>
-            <p>Campus C7.2, Saarland University, 66123, Germany</p>
+            <p>Ph.D. in Computational Linguistics</p>
+            <p>Campus C7.2, Saarland University, Germany</p>
             <p>dongqi.me [AT] gmail.com</p>
             <p>
 
@@ -138,7 +128,7 @@
               </span>
 
               <span onclick="window.open('https://openreview.net/profile?id=~Dongqi_Liu2')" style="cursor: pointer">
-                <i class="fa fa-openreview fa-lg" aria-hidden="true"></i>
+                <img src="/assets/images/openreview_logo.png" alt="OpenReview" class="openreview-icon header-openreview">
               </span>
             </p>
         </div>
@@ -151,9 +141,9 @@
         <ul class="navbar-list">
          <li class="navbar-item"><a class="navbar-link" href=/index.html#about>About</a></li>
           <li class="navbar-item"><a class="navbar-link" href=/index.html#education>Education</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/index.html#experiences>Experiences</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#experiences>Experience</a></li>
           <li class="navbar-item"><a class="navbar-link" href=/index.html#publications>Publications</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/index.html#services>Services</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#services>Service</a></li>
           <li class="navbar-item"><a class="navbar-link" href=/index.html#misc>Misc.</a></li>
         </ul>
       </div>
@@ -174,24 +164,32 @@
 <h3 id="-overview">🔍 Overview</h3>
 
 <div style="display: flex; justify-content: center;">
-    <img src="../assets/publications/ACL2026/DiscoRAG.jpg" alt="DiscoRAG" style="max-width:100%; width:800px;" />
+    <img src="../assets/publications/ACL2026/DiscoRAG.jpg" alt="Disco-RAG" style="max-width:100%; width:800px;" />
 </div>
 
 <h3 id="-code">💻 Code</h3>
 
-<p>Our code is publicly available on GitHub: <a href="https://github.com/dongqi-me/DiscoRAG"><img src="https://img.shields.io/badge/GitHub-DiscoRAG-blue?logo=github" alt="DiscoRAG GitHub Repository" /></a></p>
+<p>Our code is publicly available on GitHub: <a href="https://github.com/dongqi-me/Disco-RAG"><img src="https://img.shields.io/badge/GitHub-DiscoRAG-blue?logo=github" alt="Disco-RAG GitHub Repository" /></a></p>
 
 <h3 id="-citation">📚 Citation</h3>
 
 <div style="position: relative; margin-bottom: 20px;">
   <pre id="citation-text-discorag" style="background-color: #f8f9fa; padding: 15px; border-radius: 4px; border-left: 4px solid #007bff; margin: 0; white-space: pre-wrap; overflow-x: auto; font-family: monospace; line-height: 1.5;">
-<span style="color: #800000;">@article</span>{<span style="color: #000080;">liu2025discorag</span>,
-  <span style="color: #008000;">title</span>={<span style="color: #000080;">Disco-RAG: Discourse-Aware Retrieval-Augmented Generation</span>},
-  <span style="color: #008000;">author</span>={<span style="color: #000080;">Liu, Dongqi and Ding, Hang and Feng, Qiming and Xie, Xurong and Xue, Zhucun and Wang, Chengjie and Li, Jian and Zhang, Jiangning and Wang, Yabiao</span>},
-  <span style="color: #008000;">booktitle</span>={<span style="color: #000080;">Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</span>},
-  <span style="color: #008000;">year</span>={<span style="color: #000080;">2026</span>}
+<span style="color: #800000;">@inproceedings</span>{<span style="color: #000080;">liu-etal-2026-disco</span>,
+  <span style="color: #008000;">title</span> = {<span style="color: #000080;">Disco-{RAG}: Discourse-Aware Retrieval-Augmented Generation</span>},
+  <span style="color: #008000;">author</span> = {<span style="color: #000080;">Liu, Dongqi and Ding, Hang and Feng, Qiming and Xie, Xurong and Xue, Zhucun and Wang, Chengjie and Li, Jian and Zhang, Jiangning and Wang, Yabiao</span>},
+  <span style="color: #008000;">editor</span> = {<span style="color: #000080;">Liakata, Maria and Moreira, Viviane P. and Zhang, Jiajun and Jurgens, David</span>},
+  <span style="color: #008000;">booktitle</span> = {<span style="color: #000080;">Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)</span>},
+  <span style="color: #008000;">month</span> = <span style="color: #000080;">jul</span>,
+  <span style="color: #008000;">year</span> = {<span style="color: #000080;">2026</span>},
+  <span style="color: #008000;">address</span> = {<span style="color: #000080;">San Diego, California, United States</span>},
+  <span style="color: #008000;">publisher</span> = {<span style="color: #000080;">Association for Computational Linguistics</span>},
+  <span style="color: #008000;">url</span> = {<span style="color: #000080;">https://aclanthology.org/2026.acl-long.189/</span>},
+  <span style="color: #008000;">pages</span> = {<span style="color: #000080;">4106--4136</span>},
+  <span style="color: #008000;">ISBN</span> = {<span style="color: #000080;">979-8-89176-390-6</span>}
 }</pre>
-  <button onclick="copyBibTeXDiscoRAG()" style="position: absolute; top: 10px; right: 10px; background: #f6f8fa; color: #24292e; border: none; border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 12px; display: flex; align-items: center; opacity: 0.6; transition: opacity 0.2s;">
+
+  <button id="copy-button-discorag" onclick="copyBibTeXDiscoRAG()" style="position: absolute; top: 10px; right: 10px; background: #f6f8fa; color: #24292e; border: none; border-radius: 6px; padding: 6px 10px; cursor: pointer; font-size: 12px; display: flex; align-items: center; opacity: 0.6; transition: opacity 0.2s;">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" style="margin-right: 3px;">
       <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path>
       <path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
@@ -207,19 +205,21 @@ function copyBibTeXDiscoRAG() {
   textArea.select();
 
   try {
-    var successful = document.execCommand('copy');
-    var button = document.querySelector('button');
+    var successful = document.execCommand("copy");
+    var button = document.getElementById("copy-button-discorag");
+
     if (successful) {
       var originalContent = button.innerHTML;
       button.innerHTML = '<svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" style="margin-right: 3px;"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>';
-      button.style.opacity = '1';
+      button.style.opacity = "1";
+
       setTimeout(function() {
         button.innerHTML = originalContent;
-        button.style.opacity = '0.6';
+        button.style.opacity = "0.6";
       }, 2000);
     }
   } catch (err) {
-    console.error('Unable to copy', err);
+    console.error("Unable to copy", err);
   }
 
   document.body.removeChild(textArea);
@@ -227,22 +227,39 @@ function copyBibTeXDiscoRAG() {
 </script>
 
 <div style="text-align: center; margin-top: 30px;">
-    <a href="https://aclanthology.org/2026.acl-long" target="_blank"><img src="https://img.shields.io/badge/ACL-2026-blue" alt="ACL 2026" /></a>
-    <a href="https://arxiv.org/abs/2601.04377" target="_blank"><img src="https://img.shields.io/badge/arXiv-2601.04377-b31b1b" alt="arXiv" /></a>
-    <a href="https://github.com/dongqi-me/DiscoRAG" target="_blank"><img src="https://img.shields.io/badge/Code-Available-green?logo=github" alt="Code" /></a>
+  <a href="https://aclanthology.org/2026.acl-long.189/" target="_blank">
+    <img src="https://img.shields.io/badge/ACL-2026-blue" alt="ACL 2026" />
+  </a>
+  <a href="https://arxiv.org/abs/2601.04377" target="_blank">
+    <img src="https://img.shields.io/badge/arXiv-2601.04377-b31b1b" alt="arXiv" />
+  </a>
+  <a href="https://github.com/dongqi-me/Disco-RAG" target="_blank">
+    <img src="https://img.shields.io/badge/Code-Available-green?logo=github" alt="Code" />
+  </a>
 </div>
 
 
 </div>
 
 
-    <div class="footer">
-      <div class="row">
-        <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=tt&d=y0dgOpptDeUVepN-jF69ozzQA_4y7B3aD3HrAp94n04&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
+    
+    <div class="visitor-map" aria-label="Visitor map">
+      <h2 class="visitor-map-title">Visitors around the world</h2>
+      <div class="visitor-map-widget">
+        <script
+          src="https://statable.com/js/q768970cbB/t/mw.js"
+          data-id="3270462"
+          data-theme="light"
+          data-period="90d"
+          data-primary-color="#49108B"
+          data-ocean-color="#FFFFFF"
+          data-outer-radius="0"
+          data-show-stats="true">
+        </script>
+        <noscript>The visitor map requires JavaScript.</noscript>
+      </div>
     </div>
-<!--      <div class="row">-->
-<!--        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5ex3wwlxx67&amp;m=0c&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;cw=ffffff&amp;cb=000000" async="async"></script>-->
-<!--      </div>-->
+    
 
     <div class="footer">
       <div class="row">
@@ -278,7 +295,7 @@ function copyBibTeXDiscoRAG() {
             <img src="/assets/images/acl_logo.svg" alt="ACL Anthology" class="footer-acl" style="height: 0.9em; vertical-align: middle;">
           </span>
           <span onclick="window.open('https://openreview.net/profile?id=~Dongqi_Liu2')" style="cursor: pointer">
-            <i class="fa fa-openreview fa-lg" aria-hidden="true"></i>
+            <img src="/assets/images/openreview_logo.png" alt="OpenReview" class="openreview-icon footer-openreview">
           </span>
         </div>
       </div>

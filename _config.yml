@@ -7,6 +7,6 @@ collections:
   projects:
     output: true
 
-# Optional Statable visitor map. Paste the 10-character public hash from
-# Site settings -> Widget -> Map. Leave empty to omit the map cleanly.
-statable_public_hash: ""
+# Statable visitor analytics and public map widget.
+statable_public_hash: "q768970cbB"
+statable_site_id: "3270462"

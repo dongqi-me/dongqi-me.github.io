@@ -8,10 +8,9 @@ jekyll serve
 
 ## Visitor map
 
-The old ClustrMaps embed has been replaced with an optional Statable map.
-Create a site in Statable, copy the 10-character public hash from
-`Site settings -> Widget -> Map`, and set `statable_public_hash` in
-`_config.yml`. Leaving it empty hides the map without leaving a blank footer.
+The old ClustrMaps embed has been replaced with a Statable visitor map.
+The public widget hash and site ID live in `_config.yml`; the corresponding
+tracking script and responsive map embed are rendered by `_layouts/default.html`.
 
 ## External Libraries
 - Framework: [Jekyll](http://jekyllrb.com/)

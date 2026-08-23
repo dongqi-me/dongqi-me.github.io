@@ -6,6 +6,11 @@ Test changes with:
 jekyll serve
 ```
 
+## Visitor map
+
+The old ClustrMaps embed has been replaced with a Statable visitor map.
+The public widget hash and site ID live in `_config.yml`; the corresponding
+tracking script and responsive map embed are rendered by `_layouts/default.html`.
 
 ## External Libraries
 - Framework: [Jekyll](http://jekyllrb.com/)
