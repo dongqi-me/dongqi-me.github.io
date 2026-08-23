@@ -185,24 +185,17 @@ a:hover {
 
 /* ===== 页脚 ===== */
 .visitor-map {
-  padding: 30px 0;
+  padding: 18px 0 10px;
   border-top: 1px solid #eee;
   text-align: center;
   overflow: hidden;
 }
 
-.visitor-map-title {
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: .2rem;
-  text-transform: uppercase;
-}
-
 .visitor-map-widget {
-  width: min(100%, 960px);
-  height: clamp(220px, 37.5vw, 360px);
+  width: min(85%, 510px);
+  height: clamp(162px, 35.4vw, 213px);
   margin: 0 auto;
+  background: transparent !important;
 }
 
 .visitor-map-widget canvas,
@@ -210,6 +203,21 @@ a:hover {
 .visitor-map-widget iframe {
   max-width: 100% !important;
   height: auto;
+}
+
+.visitor-map-widget > div,
+.visitor-map-widget svg {
+  background: transparent !important;
+}
+
+.visitor-map-widget path {
+  fill: transparent !important;
+  stroke: #222 !important;
+  stroke-width: 0.6px !important;
+}
+
+.visitor-map-widget circle {
+  fill: #49108B !important;
 }
 
 .footer {

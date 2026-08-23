@@ -153,17 +153,17 @@
 
     {% if site.statable_public_hash and site.statable_public_hash != "" %}
     <div class="visitor-map" aria-label="Visitor map">
-      <h2 class="visitor-map-title">Visitors around the world</h2>
       <div class="visitor-map-widget">
         <script
           src="https://statable.com/js/{{ site.statable_public_hash }}/t/mw.js"
           data-id="{{ site.statable_site_id }}"
           data-theme="light"
           data-period="90d"
+          data-display-mode="cities"
           data-primary-color="#49108B"
-          data-ocean-color="#FFFFFF"
+          data-ocean-color="#FFFFFF00"
           data-outer-radius="0"
-          data-show-stats="true">
+          data-show-stats="false">
         </script>
         <noscript>The visitor map requires JavaScript.</noscript>
       </div>
