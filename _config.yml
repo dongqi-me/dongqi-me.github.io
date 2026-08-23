@@ -6,3 +6,7 @@ includes:    ./_includes
 collections:
   projects:
     output: true
+
+# Optional Statable visitor map. Paste the 10-character public hash from
+# Site settings -> Widget -> Map. Leave empty to omit the map cleanly.
+statable_public_hash: ""

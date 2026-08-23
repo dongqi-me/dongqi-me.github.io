@@ -32,6 +32,19 @@ a:hover {
   margin-top: 5px;
 }
 
+.openreview-icon {
+  display: inline-block;
+  width: 1.05em;
+  height: 1.05em;
+  object-fit: contain;
+  vertical-align: -0.12em;
+  filter: grayscale(100%) contrast(1.35);
+}
+
+.footer-openreview {
+  opacity: 0.7;
+}
+
 /* ===== 论文样式 ===== */
 .paper {
   margin-bottom: 20px;
@@ -55,8 +68,36 @@ a:hover {
   white-space: nowrap;
 }
 
-/* 手机视口：标题统一换行（学校名一行，日期另起一行左对齐） */
-@media (max-width: 750px) {
+/* 手机视口：个人信息居中；履历保持易读的左对齐层级 */
+@media (max-width: 749px) {
+  .header .main-description {
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+
+  .oracle-name .oracle-label,
+  .oracle-name .oracle-text {
+    display: block;
+  }
+
+  .oracle-name .oracle-text {
+    margin-top: 0.2rem;
+  }
+
+  .main-description > p:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    margin-top: 0.6rem;
+  }
+
+  .main-description > p:last-child span {
+    display: inline-flex;
+    align-items: center;
+  }
+
   .paper p.title b {
     flex-direction: column;
     align-items: flex-start;
@@ -64,6 +105,30 @@ a:hover {
 
   .paper p.title b > span[style*="float"] {
     margin-left: 0;
+  }
+
+  #education + .docs-section .paper,
+  #experiences + .docs-section .paper {
+    margin-bottom: 2.4rem;
+    padding-left: 1.4rem;
+    border-left: 2px solid #e6e6e6;
+  }
+
+  #education + .docs-section .paper:last-child,
+  #experiences + .docs-section .paper:last-child {
+    margin-bottom: 0;
+  }
+
+  #education + .docs-section .paper p.title b,
+  #experiences + .docs-section .paper p.title b {
+    gap: 0.25rem;
+  }
+
+  #education + .docs-section .paper p.title b > span,
+  #experiences + .docs-section .paper p.title b > span {
+    color: rgba(0, 0, 0, 0.58);
+    font-size: 1.5rem;
+    font-weight: 400;
   }
 }
 
@@ -119,6 +184,34 @@ a:hover {
 }
 
 /* ===== 页脚 ===== */
+.visitor-map {
+  padding: 30px 0;
+  border-top: 1px solid #eee;
+  text-align: center;
+  overflow: hidden;
+}
+
+.visitor-map-title {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+}
+
+.visitor-map-widget {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.visitor-map-widget canvas,
+.visitor-map-widget svg,
+.visitor-map-widget iframe {
+  max-width: 100% !important;
+  height: auto;
+}
+
 .footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
@@ -170,6 +263,11 @@ a:hover {
 
 /* 大于平板屏幕 */
 @media (min-width: 750px) {
+  .header > .row {
+    display: flex;
+    align-items: center;
+  }
+
   /* 导航栏 */
   .navbar + .docs-section {
     border-top-width: 0;
