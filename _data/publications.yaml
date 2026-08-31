@@ -5,7 +5,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2606.08000"
     selected: y
 
-  - title: "RoleArena: A Multi-Agent Role-Playing Environment for Long Multi-Turn Dialogues with Autonomous Plot Progression"
+  - title: "RoleArena: Autonomous Plot Progression for Long-Horizon Multi-Agent Role-Playing"
     authors: "Qi Zhao, Jian Li, Yizhang Jin, <b>Dongqi Liu</b>, Hang Ding, Qi Song, Xiang Yang Li"
     venue: "Findings of the Association for Computational Linguistics (EMNLP Findings), 2026"
     # paper_pdf: "https://dongqi.me/"
