@@ -1,6 +1,6 @@
 papers:
   - title: "Summarization is Not Dead Yet"
-    authors: "<b>Dongqi Liu,</b> Chenxi Whitehouse, Zheng Zhao, Zhuchen Cao, Jian Li, Yabiao Wang"
+    authors: "<b>Dongqi Liu,</b> Chenxi Whitehouse, Zheng Zhao, Zhuchen Cao, Jian Li, Yabiao Wang <font color='red'>oral</font>"
     venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026"
     paper_pdf: "https://arxiv.org/abs/2606.08000"
     selected: y
