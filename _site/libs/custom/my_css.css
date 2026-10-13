@@ -220,6 +220,11 @@ a:hover {
   fill: #49108B !important;
 }
 
+/* Hide the widget's promotional footer while keeping the visitor map. */
+.visitor-map-widget .stbl-attr {
+  display: none !important;
+}
+
 .footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.4);
