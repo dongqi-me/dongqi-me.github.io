@@ -3,6 +3,7 @@ papers:
     authors: "<b>Dongqi Liu,</b> Chenxi Whitehouse, Zheng Zhao, Zhuchen Cao, Jian Li, Yabiao Wang <font color='red'>oral</font>"
     venue: "Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026"
     paper_pdf: "https://aclanthology.org/2026.emnlp-main.402/"
+    slides: "/assets/publications/EMNLP2026/Summarization_Is_Not_Dead_Yet.pdf"
     selected: y
 
   - title: "RoleArena: Autonomous Plot Progression for Long-Horizon Multi-Agent Role-Playing"
